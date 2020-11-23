@@ -1,0 +1,19 @@
+/* ant design style override */
+.ant-btn{
+  color: $black-color;
+  border-color: $light-black-color;
+}
+.ant-btn:hover, 
+.ant-btn:focus{
+  color: $blue-color;
+  border-color: $blue-color;
+}
+.ant-input{
+  border-color: $light-black-color;
+}
+.ant-input:hover{
+  border-color: $blue-color;
+}
+.ant-input:focus, .ant-input-focused{
+  border-color: $blue-color;
+}
